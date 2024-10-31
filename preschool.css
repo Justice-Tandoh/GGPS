@@ -1,0 +1,213 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.email_location{display: flex;
+    padding: 10px;
+    padding-left: cm;
+    width: 100%;
+    margin-right: 10px;
+    background-color:rgb(0, 75, 146);
+color: white;
+}
+.bi bi-telephone{color: white;}
+header a:hover{color: red;}
+.aside{display: flex;
+    padding: 5px;
+    margin-bottom: 0;
+    color: rgb(0, 75, 146);
+background-color: beige;}
+    .search{margin-left: 15%;
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    .schN{margin-left: 20%;
+    padding-top: 0px;
+    padding-left: px;
+    text-align: center;}
+.content{margin-top: 1.5cm;
+    padding: 0.05cm;
+    width: 100%;
+ height: auto;
+border: none;
+background-color: white;
+text-decoration: none;
+    display: flex;}
+    .welcome {color: rgb(0, 75, 146);}
+header {
+    background-color: beige;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo{width: 2.7cm;
+    height: 2.5cm;
+    margin-left: 110px;
+    margin-bottom: 0;
+    margin-top: 0}
+    .navigation a{
+        padding: 0.25cm;
+        margin-right: px;
+        margin-left: cm;
+        padding: 1px;
+        height: 50px;
+        text-decoration: none;
+    text-align: center;}
+    .apply{margin-left: 15cm;}
+    .navbar {display: none;}
+
+
+main {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(0, 75, 146);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-section{display: flex;
+    padding: 18px;
+    gap: 160px;
+    width: 100%;
+    height: auto;
+    }
+    .left-area h2{
+        font-size: 16px;
+        color: #143f77;
+    }
+    .left-area .box li{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+    
+    }
+    .left-area .box li a{
+        color:skyblue;
+        list-style: none;
+        text-decoration: none;
+    }
+    .left-area .box li a:hover{
+        color: red;
+        transition: 0.8s;
+        text-decoration: underline;
+    }
+    .footer-bottom{
+        background-color: aquamarine;
+        color: #3b5b77;
+        text-align: center;
+    }
+    .socials{
+        font-size: 24px;
+        padding: 18px;
+    }
+    .socials a:nth-child(1){
+        color: white;
+        padding: 5px 11px 5px 11px;
+        border-radius: 10%;
+        background-color: #143f77;
+    }
+    .socials a:nth-child(2){
+        color: cornflowerblue;
+    background-color: aliceblue;
+    padding: 5px 11px 5px 11px;
+    border-radius: 10%;}
+    
+    .socials a:nth-child(4){
+        color: red;
+        background-color: aliceblue;
+        padding: 5px 11px 5px 11px;
+        border-radius: 10%;
+    }
+    .socials a:nth-child(3){
+        padding: 5px 11px 5px 11px;
+        border-radius: 10%;
+        background-color: purple;
+        color: white;
+    }
+    .socials a:nth-child(5){
+        padding: 5px 11px 5px 11px;
+        background-color: rgb(36, 144, 239);
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .socials a:nth-child(1):hover{
+        padding: 5px 11px 5px 11px;
+        background-color: rgb(36, 144, 239);
+        color: white;
+        border-radius: 10px;
+    }.socials a:nth-child(2):hover{
+        padding: 5px 11px 5px 11px;
+        background-color: rgb(36, 144, 239);
+        color: white;
+        border-radius: 10px;
+    }.socials a:nth-child(4):hover{
+        padding: 5px 11px 5px 11px;
+        background-color: white;
+        color: rgb(36, 144, 239) ;
+        border-radius: 10px;
+    }.socials a:nth-child(3):hover{
+        padding: 5px 11px 5px 11px;
+        background-color: white;
+        color: red;
+        border-radius: 10px;
+    }
+    .socials a:nth-child(5):hover{
+        padding: 5px 11px 5px 11px;
+        color: rgb(36, 144, 239);
+        background-color: white;
+        border-radius: 10px;
+    }
+    .search-box input{width: 200px;
+    border-radius: 5px;
+    border-style: none;
+    height: 35px;
+    }
+    .search-box .btn{background-color: beige;
+    color: black;
+    cursor: pointer;
+    height: 35px;}
+
+    @media screen and (max-width: 1191px){ .navbar {display: block;}
+                    .navigation {display: none;} 
+                    .email_location1 {visibility: visible; background-color: none; color: white;}
+                    .email_location {display: none;}
+                    .email_location a {color: white;}
+                    .search {display: none;}
+                    body a :hover {color: red} ;}
+                    @media screen and (max-width: 543px){ .navbar-toggler {margin-left: 45%;}}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
